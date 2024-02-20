@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">hw4</string>
+    <string name="username">Имя</string>
+    <string name="phone">Телефон</string>
+    <string name="gender">Пол</string>
+    <string name="genderMale">М</string>
+    <string name="genderFemale">Ж</string>
+    <string name="notification">Получать уведомления</string>
+    <string name="authorization_notification">Об авторизации на устройстве</string>
+    <string name="news_notification">О новинках и предложениях</string>
+    <string name="points">Баллы</string>
+    <string name="save">Сохранить</string>
+    <string name="points_of_number">%d/100</string>
+
+
 </resources>
