@@ -51,6 +51,7 @@
         tools:layout_editor_absoluteX="1dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/phone" />
@@ -105,7 +106,7 @@
 
     <CheckBox
         android:id="@+id/authorization_notification"
-        style="@style/TextView.Secondary"
+        android:theme="@style/MyCheckBox"
         android:buttonTint="@color/turquoise"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -119,7 +120,7 @@
 
     <CheckBox
         android:id="@+id/news_notification"
-        style="@style/TextView.Secondary"
+        android:theme="@style/MyCheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_small_margin"
@@ -144,7 +145,6 @@
     <TextView
         android:id="@+id/countOfPoints"
         style="@style/TextView.Secondary"
-        android:text="Random.nextInt(101)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_small_margin"
@@ -156,7 +156,8 @@
         android:id="@+id/linearProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_small_margin"
+        android:layout_marginHorizontal="@dimen/text_large_margin"
+        android:layout_marginVertical="@dimen/text_small_margin"
         app:indicatorColor="@color/purple"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
